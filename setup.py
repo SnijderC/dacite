@@ -30,6 +30,7 @@ setup(
     package_data={"dacite": ["py.typed"]},
     install_requires=['dataclasses;python_version<"3.7"'],
     extras_require={
-        "dev": ["pytest>=5", "pytest-benchmark", "pytest-cov", "coveralls", "black", "mypy", "pylint", "pre-commit"]
+        "dev": ["pytest>=5", "pytest-benchmark", "pytest-cov", "coveralls", "black", "mypy", "pylint", "pre-commit"],
+        "freezegun": ["freezegun>=1.2.2", "python-dateutil>=2.8.2"],
     },
 )
